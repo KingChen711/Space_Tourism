@@ -1,0 +1,201 @@
+.wrap {
+  background-image: url("../images/background-home-desktop.jpg");
+}
+
+.main01 {
+  margin: 0 150px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main01 .content {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30vw;
+}
+
+.main01 .content .title {
+  text-transform: uppercase;
+  font-size: 28px;
+  max-width: 100%;
+}
+
+.main01 .content .strong {
+  text-transform: uppercase;
+  font-size: 140px;
+  max-width: 100%;
+}
+
+.main01 .content .text {
+  text-align: justify;
+}
+
+.main01 a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 50px;
+}
+
+@media (max-width: 1096px) {
+  .wrap {
+    background-image: url("../images/background-home-tablet.jpg");
+  }
+  .main01 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 70px 0;
+  }
+  .main01 .content {
+    width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main01 .content .title {
+    text-transform: uppercase;
+    font-size: 20px;
+    max-width: 100%;
+  }
+  .main01 .content .strong {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 100px;
+    max-width: 100%;
+  }
+  .main01 .content .text {
+    text-align: center;
+  }
+  .main01 a {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+}
+
+@media (max-width: 500px) {
+  .wrap {
+    background-image: url("../images/background-home-mobile.jpg");
+  }
+  .main01 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 70px 0;
+  }
+  .main01 .content {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main01 .content .title {
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 100%;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    text-align: center;
+  }
+  .main01 .content .strong {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 100px;
+    max-width: 100%;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+  }
+  .main01 .content .text {
+    text-align: center;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  .main01 a {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+  }
+}
+/*# sourceMappingURL=style.css.map */

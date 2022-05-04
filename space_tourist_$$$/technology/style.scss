@@ -1,0 +1,96 @@
+$color-1:rgb(233, 224, 224);
+
+.wrap {
+  background-image: url("../images/background-technology-desktop.jpg");
+}
+
+.main04 {
+  color: $color-1;
+  flex-grow: 1;
+  margin-left: 150px;
+
+  .main04_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+
+    .container_left {
+      height: 100%;
+      width: 50%;
+
+      .main04_title {
+        font-size: 28px;
+        text-transform: uppercase;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        flex-shrink: 0;
+
+        .num {
+          color: rgb(156, 151, 151);
+        }
+      }
+
+      .main04_content {
+        height: 50%;
+        display: flex;
+        justify-content: space-between;
+
+        .main04_nav {
+          display: flex;
+          flex-direction: column;
+
+          .btn {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: black;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            color: white;
+            font-size: 30px;
+            margin-right: 60px;
+            cursor: pointer;
+
+            &+.btn {
+              margin-top: 30px;
+            }
+
+            &-selected {
+              background-color: white;
+              border: 1px solid rgba(0, 0, 0, 0.5);
+              color: black;
+            }
+          }
+        }
+
+        .content_script {
+          .script_title {
+            text-transform: uppercase;
+            font-size: 18px;
+          }
+
+          .script_technologyName {
+            text-transform: uppercase;
+            font-size: 50px;
+            margin-bottom: 30px;
+          }
+
+          .script_text {
+            width: 60%;
+            text-align: justify;
+          }
+        }
+      }
+    }
+
+    .container_right {
+      width: 50%;
+      height: 70%;
+      align-self: center;
+      background-image: url("../images/image-space-capsule-portrait.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}

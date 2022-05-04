@@ -1,0 +1,143 @@
+$color-1:rgb(233, 224, 224);
+
+.wrap {
+  background-image: url("../images/background-home-desktop.jpg");
+}
+
+.main01 {
+  margin:0 150px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  .content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+
+    .title {
+      text-transform: uppercase;
+      font-size: 28px;
+      max-width: 100%;
+    }
+
+    .strong {
+      text-transform: uppercase;
+      font-size: 140px;
+      max-width: 100%;
+    }
+
+    .text {
+      text-align: justify;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1096px) {
+  .wrap {
+    background-image: url("../images/background-home-tablet.jpg");
+  }
+
+  .main01 {
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    margin: 70px 0;
+
+    .content {
+      width: 70%;
+      display:flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
+      .title {
+        text-transform: uppercase;
+        font-size: 20px;
+        max-width: 100%;
+      }
+
+      .strong {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 100px;
+        max-width: 100%;
+      }
+
+      .text {
+        text-align: center;
+      }
+    }
+
+    a {
+      transform: scale(0.8);
+    }
+  }
+}
+@media (max-width: 500px) {
+  .wrap {
+    background-image: url("../images/background-home-mobile.jpg");
+  }
+
+  .main01 {
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    margin: 70px 0;
+
+    .content {
+      width: 80%;
+      display:flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
+      .title {
+        text-transform: uppercase;
+        font-size: 20px;
+        width: 100%;
+        transform: scale(0.8);
+        text-align: center;
+      }
+
+      .strong {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 100px;
+        max-width: 100%;
+        transform: scale(0.8);
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin:0;
+      }
+
+      .text {
+        text-align: center;
+        transform: scale(0.8);
+      }
+    }
+
+    a {
+      transform: scale(0.4);
+    }
+  }
+}

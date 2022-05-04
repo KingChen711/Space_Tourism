@@ -1,0 +1,143 @@
+.wrap {
+  background-image: url("../images/background-crew-desktop.jpg");
+}
+
+.main03 {
+  color: #e9e0e0;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-inline: 150px;
+}
+
+.main03 .main03_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.main03 .main03_container .container_left {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main03 .main03_container .container_left .main03_title {
+  font-size: 28px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.main03 .main03_container .container_left .main03_title .num {
+  color: #9c9797;
+}
+
+.main03 .main03_container .container_left .left_content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main03 .main03_container .container_left .left_content .content_container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main03 .main03_container .container_left .left_content .content_container .crew_role {
+  color: #9c9797;
+  text-transform: uppercase;
+  font-size: 30px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.main03 .main03_container .container_left .left_content .content_container .crew_name {
+  text-transform: uppercase;
+  font-size: 50px;
+  margin: 5px 0 30px 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.main03 .main03_container .container_left .left_content .content_container .crew_describe {
+  color: #e9e0e0;
+  width: 60%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: justify;
+}
+
+.main03 .main03_container .container_left .left_content .content_nav {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.main03 .main03_container .container_left .left_content .content_nav .btn {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.main03 .main03_container .container_left .left_content .content_nav .btn + .btn {
+  margin-left: 25px;
+}
+
+.main03 .main03_container .container_left .left_content .content_nav .btn-select {
+  opacity: 1;
+  width: 30px;
+  border-radius: 20px;
+}
+
+.main03 .main03_container .container_right {
+  height: 80%;
+  width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  background-image: url(../images/image-douglas-hurley.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/*# sourceMappingURL=style.css.map */
